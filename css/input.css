@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Components */
+@layer components{
+  .btn-primary{
+    @apply text-sm leading-none text-white font-medium bg-primary px-8 py-4 rounded-full transition-colors hover:bg-primaryHover;
+  }
+
+  .btn-secondary{
+    @apply text-sm leading-none text-primary font-medium bg-white px-8 py-4 rounded-full shadow-md;
+  }
+}
+
+/* Splide customization */
+#testimonials-splide .splide__pagination li{
+  @apply mx-1;
+}
+
+#testimonials-splide .splide__pagination__page{
+  @apply bg-white w-2 h-2 rounded border-[1px] border-primary;
+}
+
+#testimonials-splide .splide__pagination__page.is-active{
+  @apply bg-primary;
+}

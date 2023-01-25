@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-manage-landing-page",
+  "version": "1.0.0",
+  "description": "build mobile first with tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./css/input.css -o ./css/output.css --watch"
+  },
+  "keywords": [
+    "tailwindcss",
+    "html5",
+    "mobilefirst",
+    "responsive",
+    "css3",
+    "frontendmentor"
+  ],
+  "author": "Jamal Mohamed Ameer",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4"
+  }
+}
